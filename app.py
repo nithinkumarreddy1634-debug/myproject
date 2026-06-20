@@ -8,7 +8,7 @@ st.set_page_config(
 
 @st.cache_data
 def load_data():
-    return pd.read_csv(WorldCupMatches (1).csv")
+    return pd.read_csv("WorldCupMatches (1).csv")
 
 df = load_data()
 
